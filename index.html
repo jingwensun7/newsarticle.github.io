@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <title>News</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 head">
+                <h1><i class="em em-newspaper"></i>New York Times Search</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 div2 topBar1">
+                <i class="em em-grey_question"></i>Search Parameters
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 div2">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Search Term</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        </div>
+                        <div class = "form-group">
+                            <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>5</option>
+                                <option>10</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Start Year &#40;Optional&#41;&colon;</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">End Year &#40;Optional&#41;&colon;</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="searchButton">Search</button>
+                        <button type="button" class="btn btn-primary" id="clearButton">Clear Results</button>
+                    </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 div2 topBar2">
+                <i class="em em-information_source"></i>Top Articles
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 div2">
+                <div class="article">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 footer">
+                Made with lots of lots of<i class="em em-black_heart"></i>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/Backend.js"></script>
+</body>
+</html>
