@@ -10,4 +10,4 @@ News Article API
 
 Bootstrap, CSS, JavaScript, jQuery, API
 
-Group: Randall Braden, Nathan Buenaventura, Fabien Mansoubi
+Group: Nataly Jingwen Sun, Randall Braden, Nathan Buenaventura, Fabien Mansoubi
